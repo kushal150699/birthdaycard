@@ -1,0 +1,79 @@
+body{
+    font-size: 2.5vw;
+    text-align: center;
+    color:white;
+    font-family: ethno;
+    background-image: url('https://media.giphy.com/media/tL5HmgfZi0Qow/giphy.gif');
+    background-size: 100% 100%;
+}
+
+@font-face {
+    src: url("Fonts/ethno.otf");
+    font-family: ethno;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0 0 1px white;
+}
+
+#profile-image{
+    width:15%;
+    border-radius:50%;
+    border:2px solid black;
+}
+
+#age{
+    margin:10px 0 ;
+}
+
+#bdate{
+    margin:5px 0 20px 0;
+}
+
+.gift-title{
+    margin-bottom: 0px;
+}
+
+.giftplaceholder{
+        position: relative;
+        border: 2px solid white;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto 10% auto;;
+        width: 60vw;
+        height: 50vw;
+}
+
+.gift-img{
+    position:absolute;
+    background-image:url("images/gift-cover.jpeg");
+    background-size: 100% 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#gift-img-happy:hover {
+    background-image:url('images/happy.gif'); 
+}
+
+#gift-img-hot:hover {
+    background-image:url('https://media.giphy.com/media/XXYkaKVk1Luda/giphy.gif'); 
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#gift-img-succeed:hover {
+    background-image: url("https://media.giphy.com/media/wViS9n0RqN2/giphy.gif");
+}
+
+
+
+
+
+
+
+
